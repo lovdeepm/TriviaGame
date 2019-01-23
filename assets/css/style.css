@@ -1,0 +1,14 @@
+body{
+	background-image: url("../images/starwars3.png");
+    text-align: center;
+    color: red;
+    text-emphasis: 20;
+    padding: 20px;
+}
+
+button {
+    text-align: center;
+    width: 100px;
+    height: 50px;
+}
+
