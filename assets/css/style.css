@@ -1,14 +1,16 @@
 body{
-	background-image: url("../images/starwars3.png");
+	background-image: url("../images/starwars4.jpg");
     text-align: center;
     color: red;
     text-emphasis: 20;
     padding: 20px;
+    font-family: 'Raleway', sans-serif;
 }
 
 button {
     text-align: center;
     width: 100px;
     height: 50px;
+    background-color: red;
 }
 

@@ -12,27 +12,27 @@ $(document).on('click', '#done', function(e) {
 
 var questions = [{
     question: "1 . Who directed the Star Wars Movies?",
-    answers: ["Jules Verne", "George Lucas", "J K Rowling", "Charles Dickens"],
+    answers: ["Jules Verne", "George Lucas", " J K Rowling", " Charles Dickens"],
     correctAnswer: "George Lucas"
   }, {
     question: "2 . How many Death Stars were Built?",
-    answers: ["One", "Two", "Three", "Four"],
+    answers: ["One", "Two", " Three", " Four"],
     correctAnswer: "Two"
   }, {
     question: "3 . Luke Skywalker is the son of who?",
-    answers: ["Anakin and Padme", "Han and Leai", "Chewbacca", "Han Solo"],
+    answers: ["Anakin and Padme", " Han and Leai", " Chewbacca", " Han Solo"],
     correctAnswer: "Anakin and Padme"
   }, {
     question: "4 . Who said the following: I am your Father!?",
-    answers: ["Luke Skywalker", "Darth Vader", "Han Solo", "Leia"],
+    answers: [" Luke Skywalker", "Darth Vader", " Han Solo", " Leia"],
     correctAnswer: "Darth Vader"
   }, {
     question: "5 . What is a weapon of the Jedi",
-    answers: ["Lightsaber", "Toothpick", "flashligh", "baseball bat"],
+    answers: ["Lightsaber", " Toothpick", " Flashlight", " Baseball Bat"],
     correctAnswer: "Lightsaber"
   }, {
     question:  "6 . Who is the Captain of the Millenium Falcon?",
-    answers: ["Hans Solo", "Leia", "Boba Fett", "Jabba the hut"],
+    answers: ["Hans Solo", " Leia", " Boba Fett", " Jabba the hut"],
     correctAnswer: "Hans Solo"
   }];
   
@@ -76,35 +76,35 @@ var questions = [{
         }
       });
       $.each($("input[name='question-1']:checked"), function() {
-          if ($(this).val() == questions[1].correctAnswer) {
+          if ($(this).val() === questions[1].correctAnswer) {
           game.correct++;
         } else {
           game.incorrect++;
         }
       });
       $.each($("input[name='question-2']:checked"), function() {
-        if ($(this).val() == questions[2].correctAnswer) {
+        if ($(this).val() === questions[2].correctAnswer) {
           game.correct++;
         } else {
           game.incorrect++;
         }
       });
       $.each($("input[name='question-3']:checked"), function() {
-        if ($(this).val() == questions[3].correctAnswer) {
+        if ($(this).val() === questions[3].correctAnswer) {
           game.correct++;
         } else {
           game.incorrect++;
         }
       });
       $.each($("input[name='question-4']:checked"), function() {
-        if ($(this).val() == questions[4].correctAnswer) {
+        if ($(this).val() === questions[4].correctAnswer) {
           game.correct++;
         } else {
           game.incorrect++;
         }
       });
       $.each($("input[name='question-5']:checked"), function() {
-        if ($(this).val() == questions[5].correctAnswer) {
+        if ($(this).val() === questions[5].correctAnswer) {
           game.correct++;
         } else {
           game.incorrect++;
